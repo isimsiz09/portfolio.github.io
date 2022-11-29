@@ -1,0 +1,99 @@
+
+/*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+  .main-img {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: var(--theme-contrast);
+    box-sizing: border-box;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.me_img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 290px;
+    height: 290px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    filter: grayscale(1);
+}
+
+
+.about-me .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--theme-contrast);
+}
+
+.about-me .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-me .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.about-me .content ul strong {
+    margin-right: 10px;
+}
+
+.about-me .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: var(--theme-contrast);
+    line-height: 0;
+}
+
+.about-me .content p:last-child {
+    margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills-list {
+    column-count: 2;
+}
+
+@media (max-width:768px) {
+    .skills-list {
+        column-count: 1;
+    }
+}
+
+.single-skill {
+    padding: 10px;
+}
+
+.single-skill .skill {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.single-skill .skill .val {
+    float: right;
+    font-style: normal;
+}
+.progress{
+    background-color: #0e0e0e !important;
+    border-radius: 10px;
+}
+.progress-bar {
+    /* background-color: var(--theme-contrast); */
+    background: linear-gradient(270deg, var(--theme-contrast), var(--theme-blue));
+    border-radius: 0 5px 5px 0;
+    clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+
+}
