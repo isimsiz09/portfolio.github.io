@@ -54,7 +54,41 @@
 .about-me .content p:last-child {
     margin-bottom: 0;
 }
+.resumeButton{
+    color:var(--theme-contrast);
+    z-index: 1;
+    font-weight: bold;
+    right: 10px;
+}
+.resumeButton:hover {
+    color: var(--theme-contrast);
+}
+.resumeButton::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: var(--theme-contrast);
+    position: absolute;
+    border-radius: 50%;
+    left: -10px;
+    top: -7px;
+    transition: .3s;
+    z-index: -1;
+    opacity: .2;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 
+
+}
+.resumeButton:hover:before {    
+    width: 115%;
+    border-radius: 20px;
+    transition: .3s;
+    opacity: 1;
+    clip-path:none;
+    border: 1px solid var(--theme-contrast);
+    background-color: transparent;
+
+}
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/

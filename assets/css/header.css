@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
-  #header {
+#header {
     transition: ease-in-out 0.3s;
     position: relative;
     height: 100vh;
@@ -45,6 +45,7 @@
 #header .social-links {
     margin-top: 40px;
     display: flex;
+    transition: 1s;
 }
 
 #header .social-links a {
@@ -97,7 +98,30 @@
     background: rgba(0, 0, 0, 0.9);
 }
 
-#header.header-top .social-links,
+#header.header-top .social-links {
+    flex-direction: column;
+    position: fixed;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 1s;
+}
+
+#header.header-top .social-links a {
+    margin: 10px 0;
+}
+
+@media (max-width:800px) {
+    #header.header-top .social-links {
+        left: 0;
+    }
+
+    #header.header-top .social-links a {
+        width: 25px;
+        height: 25px;
+    }
+}
+
 #header.header-top h2 {
     display: none;
 }

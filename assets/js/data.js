@@ -16,10 +16,6 @@ var skills= [
         val : "85"
     },
     {
-        name : "Wordpress",
-        val : "80"
-    },
-    {
         name : "Bootstrap",
         val : "90"
     },
@@ -30,6 +26,10 @@ var skills= [
     {
         name : "Angular / Vue",
         val : "25"
+    },
+    {
+        name : "Wordpress",
+        val : "80"
     },
     {
         name : "Photoshop",
