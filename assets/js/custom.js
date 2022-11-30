@@ -4,8 +4,8 @@ var typed = new Typed('#passionate', {
     smartBackspace: true,
     loop: true,
     typeSpeed:30,
-    backSpeed:20,
-    showCursor: false,
+    backSpeed:30,
+    showCursor: true,
     cursorChar: '|',
 });
 
