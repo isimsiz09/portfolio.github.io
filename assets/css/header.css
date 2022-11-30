@@ -111,14 +111,29 @@
     margin: 10px 0;
 }
 
-@media (max-width:800px) {
+@media (max-width:1024px) {
     #header.header-top .social-links {
-        left: 0;
+        left: 0px;
+        background: #000;
+        padding: 15px 10px;
+        border-radius: 0 20px 20px 0;
     }
 
     #header.header-top .social-links a {
         width: 25px;
         height: 25px;
+        background-color: transparent;
+        margin: 20px 0;
+    }
+
+    #header.header-top .social-links a:hover {
+        color: var(--theme-contrast);
+    }
+}
+@media (max-width:500px)
+{
+    #header.header-top .social-links {
+        display: none;
     }
 }
 

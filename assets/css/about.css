@@ -60,6 +60,10 @@
     font-weight: bold;
     right: 10px;
 }
+.resumeButton.mobile
+{
+    margin: 20px 0 -20px 15px !important;
+}
 .resumeButton:hover {
     color: var(--theme-contrast);
 }
@@ -76,8 +80,6 @@
     z-index: -1;
     opacity: .2;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-
-
 }
 .resumeButton:hover:before {    
     width: 115%;
@@ -87,6 +89,10 @@
     clip-path:none;
     border: 1px solid var(--theme-contrast);
     background-color: transparent;
+
+}
+.resumeButton.mobile:hover:before {    
+    width: 100%;
 
 }
 /*--------------------------------------------------------------
