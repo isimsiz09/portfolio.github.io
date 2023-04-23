@@ -1,6 +1,6 @@
 // main page passion heading
 var typed = new Typed('#passionate', {
-    strings: ['front-end developer', 'website designer', 'freelancer', 'graphics designer', 'Photographer'],
+    strings: ['front-end developer', 'HTML &amp; CSS expert', 'javascript developer', 'reactJs enthusiast', 'bootstrap expert'],
     smartBackspace: true,
     loop: true,
     typeSpeed:30,

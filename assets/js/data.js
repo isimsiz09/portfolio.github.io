@@ -13,7 +13,7 @@ var skills= [
     },
     {
         name : "jQuery",
-        val : "85"
+        val : "90"
     },
     {
         name : "Bootstrap",
@@ -21,15 +21,15 @@ var skills= [
     },
     {
         name : "React Js",
-        val : "45"
+        val : "75"
     },
     {
-        name : "Angular / Vue",
-        val : "25"
+        name : "PHP",
+        val : "50"
     },
     {
         name : "Wordpress",
-        val : "80"
+        val : "70"
     },
     {
         name : "Photoshop",
@@ -182,6 +182,102 @@ var portfolios = [
         desc: "Saleh Mohammad A. Karim (SAK Group) is a family owned company and involved in timber business since 1955. We are the largest and leading timber traders and importers in Pakistan from various sources throughout the globe of various types of Round Logs...",
         img1: 'assets/imgs/portfolio/saktimber.jpg',
         img2: 'assets/imgs/portfolio/saktimber1.jpg'
+    },
+    {
+        id:13,
+        name: 'Qapi',
+        type: 'Website',
+        filter: 'filter-app',
+        languages: 'Php, Bootstrap, Html etc',
+        urlshow: 'qapimltd.com',
+        url: 'https://www.qapimltd.com/',
+        desc: "Qapi is a project that allow customers to invest with them on properties, they have different scenerios to invest. Asset and fund management is the process of professionally managing investment portfolios, including stocks, bonds, real estate...",
+        img1: 'assets/imgs/portfolio/qapi.jpg',
+        img2: ''
+    },
+    {
+        id:14,
+        name: 'Frontline Refrigeration',
+        type: 'Website',
+        filter: 'filter-app',
+        languages: 'Php, Bootstrap, Html etc',
+        urlshow: 'frontlinerefrigerationcorp.com',
+        url: 'https://www.frontlinerefrigerationcorp.com/',
+        desc: "frontline refrigeration is a local business, offering wide-ranging commercial refrigeration services including maintenance, repair, and installation. Having years of experience in working with all business sizes, industrial sites, and public sector bodies...",
+        img1: 'assets/imgs/portfolio/frontline.jpg',
+        img2: ''
+    },
+    {
+        id:15,
+        name: 'Aberny',
+        type: 'Website',
+        filter: 'filter-app',
+        languages: 'Php, Bootstrap, Html etc',
+        urlshow: 'aberny.com',
+        url: 'https://www.aberny.com/',
+        desc: "Aberny provides accounting and bookkeeping services, We work with small and medium sized businesses and our goal is to make sure your financials and accounts are up to date so you have the relevant information to make better decisions...",
+        img1: 'assets/imgs/portfolio/aberny.jpg',
+        img2: ''
+    },
+    {
+        id:16,
+        name: 'Fossphorus',
+        type: 'Website',
+        filter: 'filter-app',
+        languages: 'Php, Bootstrap, Html etc',
+        urlshow: 'fossphorus.com',
+        url: 'https://www.fossphorus.com/',
+        desc: "Fossphorus is an agile brand strategy consultant agency focused on scaling aspiring brands across multiple markets. We partner with like-minded visionaries to ignite the objective, inspire the crowd, and challenge the status quo. Being among the top marketing firms...",
+        img1: 'assets/imgs/portfolio/fossphorus.jpg',
+        img2: ''
+    },
+    {
+        id:17,
+        name: 'Freedom Tech',
+        type: 'Website',
+        filter: 'filter-app',
+        languages: 'Laravel, Php, Bootstrap, Html etc',
+        urlshow: 'freedomtechsolutions.co.uk',
+        url: 'https://freedomtechsolutions.co.uk/',
+        desc: "Freedomtech Solutions is a leading System Integrator, with the capacity to deliver global solutions and services to our clients.<br>We believe that new innovative technologies can help deliver a competitive edge within your industry. As technology continuously advances, our clients can rely on us to guide them through a successful digital transformation...",
+        img1: 'assets/imgs/portfolio/freedomtech.jpg',
+        img2: ''
+    },
+    {
+        id:18,
+        name: 'iTok Agency',
+        type: 'App',
+        filter: 'filter-app',
+        languages: 'Php, Bootstrap, Html, Javascript etc',
+        urlshow: 'app.i-tokagency.com',
+        url: 'https://app.i-tokagency.com/auth',
+        desc: "ITok is a agency, they are providing social media services to grow accounts, they have different packages and guidlines so users can registered on this app through tiktok, this app is totally based on API's...",
+        img1: 'assets/imgs/portfolio/itok.jpg',
+        img2: ''
+    },
+    {
+        id:19,
+        name: 'Gravesend Mosque',
+        type: 'Website',
+        filter: 'filter-app',
+        languages: 'Laravel, Php, Bootstrap, Html etc',
+        urlshow: 'gravesendcentralmosque.com',
+        url: 'https://gravesendcentralmosque.com/',
+        desc: "The Gravesend Central Mosque is one of the oldest mosques in Kent. Ever since then, we have welcomed worshippers and visitors from across Gravesend and Kent...",
+        img1: 'assets/imgs/portfolio/gravesendcentralmosque.jpg',
+        img2: ''
+    },
+    {
+        id:13,
+        name: '',
+        type: 'Website',
+        filter: 'filter-app',
+        languages: 'Laravel, Php, Bootstrap, Html etc',
+        urlshow: 'abc.com',
+        url: '',
+        desc: "",
+        img1: 'assets/imgs/portfolio/',
+        img2: ''
     }
 
 ]
