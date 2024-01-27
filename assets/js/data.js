@@ -276,7 +276,7 @@ var portfolios = [
         urlshow: 'laboratoryintegratedtesting.com',
         url: 'https://laboratoryintegratedtesting.com/',
         desc: "Blood tests made affordable. Know exactly what’s going on in your body without getting overcharged. You can order a blood test anytime, anywhere you have access to the internet.",
-        img1: 'assets/imgs/portfolio/lit.jpg',
+        img1: 'assets/imgs/portfolio/lit.jpeg',
         img2: ''
     },
     {
@@ -288,7 +288,7 @@ var portfolios = [
         urlshow: 'internationalmscareerseminar.com',
         url: 'https://internationalmscareerseminar.com/',
         desc: "Make your career coaching more effective and scalable with resources that motivate graduate business students and alumni to own and prioritize their job search.",
-        img1: 'assets/imgs/portfolio/iscs.jpg',
+        img1: 'assets/imgs/portfolio/iscs.jpeg',
         img2: ''
     },
     {
@@ -300,7 +300,7 @@ var portfolios = [
         urlshow: 'budgetuniversityonline.com',
         url: 'https://budgetuniversityonline.com/',
         desc: "Budget University Online is an online middle school and high school. Budget University offers core course that is geared through a financial literacy curriculum. This program will prepare your student for their future. While building upon subjects and concepts from the foundation they learned in elementary school programs. Students will take classes that cover mathematics, english and reading, science, history and social studies, with emphasis on financial literacy to create generational wealth.",
-        img1: 'assets/imgs/portfolio/bui.jpg',
+        img1: 'assets/imgs/portfolio/bui.jpeg',
         img2: ''
     }
 
