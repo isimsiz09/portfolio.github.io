@@ -1,49 +1,49 @@
-var skills= [
+var skills = [
     {
-        name : "Html",
-        val : "95"
+        name: "Html",
+        val: "95"
     },
     {
-        name : "Css",
-        val : "90"
+        name: "Css",
+        val: "90"
     },
     {
-        name : "Javascript",
-        val : "85"
+        name: "Javascript",
+        val: "85"
     },
     {
-        name : "jQuery",
-        val : "90"
+        name: "jQuery",
+        val: "90"
     },
     {
-        name : "Bootstrap",
-        val : "90"
+        name: "Bootstrap",
+        val: "90"
     },
     {
-        name : "React Js",
-        val : "75"
+        name: "React Js",
+        val: "75"
     },
     {
-        name : "PHP",
-        val : "50"
+        name: "PHP",
+        val: "50"
     },
     {
-        name : "Wordpress",
-        val : "70"
+        name: "Wordpress",
+        val: "70"
     },
     {
-        name : "Photoshop",
-        val : "90"
+        name: "Photoshop",
+        val: "90"
     },
     {
-        name : "Illustrator",
-        val : "80"
+        name: "Illustrator",
+        val: "80"
     }
 ]
 
 var portfolios = [
     {
-        id:1,
+        id: 1,
         name: 'Delta Credit Restoration',
         type: 'Website',
         filter: 'filter-app',
@@ -55,7 +55,7 @@ var portfolios = [
         img2: 'assets/imgs/portfolio/delta1.jpg'
     },
     {
-        id:2,
+        id: 2,
         name: 'Global Empowerment',
         type: 'Website',
         filter: 'filter-app',
@@ -67,7 +67,7 @@ var portfolios = [
         img2: 'assets/imgs/portfolio/globalempowerment1.jpg'
     },
     {
-        id:3,
+        id: 3,
         name: 'Expert Digitizing',
         type: 'Website',
         filter: 'filter-app',
@@ -79,7 +79,7 @@ var portfolios = [
         img2: 'assets/imgs/portfolio/expertdigitizing1.jpg'
     },
     {
-        id:4,
+        id: 4,
         name: 'Cascade Valley',
         type: 'Web App',
         filter: 'filter-app',
@@ -90,7 +90,7 @@ var portfolios = [
         img1: 'assets/imgs/portfolio/cascade.jpg'
     },
     {
-        id:5,
+        id: 5,
         name: '3 Gen Farm',
         type: 'Website',
         filter: 'filter-app',
@@ -101,7 +101,7 @@ var portfolios = [
         img1: 'assets/imgs/portfolio/genfarm.jpg'
     },
     {
-        id:6,
+        id: 6,
         name: 'Kingdom GPS Roadmap',
         type: 'Website',
         filter: 'filter-app',
@@ -113,7 +113,7 @@ var portfolios = [
         img2: 'assets/imgs/portfolio/kingdom1.jpg'
     },
     {
-        id:7,
+        id: 7,
         name: 'Koi kompanion',
         type: 'Website',
         filter: 'filter-app',
@@ -125,7 +125,7 @@ var portfolios = [
         img2: 'assets/imgs/portfolio/koikompanion1.jpg'
     },
     {
-        id:8,
+        id: 8,
         name: 'Nursing Management System',
         type: 'Web App',
         filter: 'filter-app',
@@ -137,7 +137,7 @@ var portfolios = [
         img2: 'assets/imgs/portfolio/nms1.jpg'
     },
     {
-        id:9,
+        id: 9,
         name: 'Pnc Logos',
         type: 'Website',
         filter: 'filter-app',
@@ -149,7 +149,7 @@ var portfolios = [
         img2: 'assets/imgs/portfolio/pnclogos1.jpg'
     },
     {
-        id:10,
+        id: 10,
         name: 'Qtis',
         type: 'Web App',
         filter: 'filter-app',
@@ -160,7 +160,7 @@ var portfolios = [
         img1: 'assets/imgs/portfolio/qtis.jpg'
     },
     {
-        id:11,
+        id: 11,
         name: 'Proservants',
         type: 'Website',
         filter: 'filter-app',
@@ -172,7 +172,7 @@ var portfolios = [
         img2: 'assets/imgs/portfolio/proservants1.jpg'
     },
     {
-        id:12,
+        id: 12,
         name: 'Sak Timber',
         type: 'Website',
         filter: 'filter-app',
@@ -184,7 +184,7 @@ var portfolios = [
         img2: 'assets/imgs/portfolio/saktimber1.jpg'
     },
     {
-        id:13,
+        id: 13,
         name: 'Qapi',
         type: 'Website',
         filter: 'filter-app',
@@ -196,7 +196,7 @@ var portfolios = [
         img2: ''
     },
     {
-        id:14,
+        id: 14,
         name: 'Frontline Refrigeration',
         type: 'Website',
         filter: 'filter-app',
@@ -208,7 +208,7 @@ var portfolios = [
         img2: ''
     },
     {
-        id:15,
+        id: 15,
         name: 'Aberny',
         type: 'Website',
         filter: 'filter-app',
@@ -220,7 +220,7 @@ var portfolios = [
         img2: ''
     },
     {
-        id:16,
+        id: 16,
         name: 'Fossphorus',
         type: 'Website',
         filter: 'filter-app',
@@ -232,7 +232,7 @@ var portfolios = [
         img2: ''
     },
     {
-        id:17,
+        id: 17,
         name: 'Freedom Tech',
         type: 'Website',
         filter: 'filter-app',
@@ -244,7 +244,7 @@ var portfolios = [
         img2: ''
     },
     {
-        id:18,
+        id: 18,
         name: 'iTok Agency',
         type: 'App',
         filter: 'filter-app',
@@ -256,7 +256,7 @@ var portfolios = [
         img2: ''
     },
     {
-        id:19,
+        id: 19,
         name: 'Gravesend Mosque',
         type: 'Website',
         filter: 'filter-app',
@@ -268,15 +268,39 @@ var portfolios = [
         img2: ''
     },
     {
-        id:13,
-        name: '',
+        id: 20,
+        name: 'Laboratory Integrated Testing',
         type: 'Website',
         filter: 'filter-app',
         languages: 'Laravel, Php, Bootstrap, Html etc',
-        urlshow: 'abc.com',
-        url: '',
-        desc: "",
-        img1: 'assets/imgs/portfolio/',
+        urlshow: 'laboratoryintegratedtesting.com',
+        url: 'https://laboratoryintegratedtesting.com/',
+        desc: "Blood tests made affordable. Know exactly what’s going on in your body without getting overcharged. You can order a blood test anytime, anywhere you have access to the internet.",
+        img1: 'assets/imgs/portfolio/lit.jpg',
+        img2: ''
+    },
+    {
+        id: 21,
+        name: 'International Student Career Seminar',
+        type: 'Website',
+        filter: 'filter-app',
+        languages: 'Laravel, Php, Bootstrap, Html etc',
+        urlshow: 'internationalmscareerseminar.com',
+        url: 'https://internationalmscareerseminar.com/',
+        desc: "Make your career coaching more effective and scalable with resources that motivate graduate business students and alumni to own and prioritize their job search.",
+        img1: 'assets/imgs/portfolio/iscs.jpg',
+        img2: ''
+    },
+    {
+        id: 22,
+        name: 'Budget University',
+        type: 'Website',
+        filter: 'filter-app',
+        languages: 'Laravel, Php, Bootstrap, Html etc',
+        urlshow: 'budgetuniversityonline.com',
+        url: 'https://budgetuniversityonline.com/',
+        desc: "Budget University Online is an online middle school and high school. Budget University offers core course that is geared through a financial literacy curriculum. This program will prepare your student for their future. While building upon subjects and concepts from the foundation they learned in elementary school programs. Students will take classes that cover mathematics, english and reading, science, history and social studies, with emphasis on financial literacy to create generational wealth.",
+        img1: 'assets/imgs/portfolio/bui.jpg',
         img2: ''
     }
 
